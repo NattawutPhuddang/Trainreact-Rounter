@@ -1,16 +1,11 @@
-import './App.css';
-import todolist from './todolist';
-
-// ฟังก์ชันหลักของแอปพลิเคชัน
+import Counter from './componants/count.jsx';
 function App() {
   return (
-    
-    <div className="App">
-      <header className="App-header">
-        <todolist />
-      </header>
+    <div>
+      <Counter />
     </div>
   );
+
 }
 
 export default App;
