@@ -1,8 +1,9 @@
-import logo from './logo.svg';
-import './App.css';
-
+import Counter from './componants/count.jsx';
 function App() {
   return (
+counter-number
+    <div>
+      <Counter />
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
@@ -18,6 +19,7 @@ function App() {
           Learn React-router ;lk;la;samfsd,d;fdlsldl,fdlfdldsldslf;d;ldlgoo
         </a>
       </header>
+main
     </div>
   );
 }
