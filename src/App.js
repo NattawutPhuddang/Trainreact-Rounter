@@ -1,15 +1,10 @@
-import Counter from './componants/count.jsx';
-import Todolist from './componants/todolist.jsx';
-
+import Home from './componants/home';
+// ฟังก์ชันหลักของแอปพลิเคชัน
 function App() {
   return (
+    
     <div>
-      <div>
-      <Counter />
-    </div>
-    <div>
-      <Todolist />
-    </div>
+      <Home />
     </div>
   );
   
