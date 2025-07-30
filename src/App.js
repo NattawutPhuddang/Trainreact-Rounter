@@ -1,13 +1,8 @@
+import React from 'react';
 import Home from './componants/home';
-// ฟังก์ชันหลักของแอปพลิเคชัน
+
 function App() {
-  return (
-    
-    <div>
-      <Home />
-    </div>
-  );
-  
+  return <Home />;
 }
 
 export default App;
