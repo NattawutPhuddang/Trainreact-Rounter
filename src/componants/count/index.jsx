@@ -1,14 +1,16 @@
-import Display from './displaycount';
+import { useContext } from 'react';
+import { AppContext } from '../../context/AppContext';
+import CountDisplay from './displaycount';
 
-function Counter({ count, setCount }) {
+function Counter() {
+  const { state, dispatch } = useContext(AppContext);
 
   return (
-    <div style={{ textAlign: 'center', marginTop: '20px' }}>
-      <Display title={count} />
-      <button onClick={() => setCount(count + 1)}>Add</button>
-      <button onClick={() => setCount(count - 1)}>Subtract</button>
+    <div>
+      <CountDisplay title={state.count} />
+      <button onClick={() => dispatch({ type: 'INCREMENT' })}>Add</button>
+      <button onClick={() => dispatch({ type: 'DECREMENT' })}>Subtract</button>
     </div>
-
   );
 }
 

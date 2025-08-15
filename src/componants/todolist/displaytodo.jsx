@@ -1,4 +1,4 @@
-function Display({ title, list }) {
+function TodoDisplay({ title, list }) {
   return (
     <header className="todolist-header">
       <h1>{title}</h1>
@@ -7,4 +7,4 @@ function Display({ title, list }) {
   );
 }
 
-export default Display;
+export default TodoDisplay;
